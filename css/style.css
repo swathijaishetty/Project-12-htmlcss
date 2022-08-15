@@ -309,3 +309,134 @@ hr{
     left:140px;
     color: #424242;
 }
+
+@media screen and (max-width:1166px){
+    .list{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .right{
+        margin-top: -20px;
+    }
+    .ppl img{
+        width:600px;
+    }
+    .head2 h1{
+        margin-left: 100px;
+    }
+    .rightone img,.lefttwo img{
+          width:400px;
+          height: 400px;
+    }
+    .rightone img{
+        margin-right: -80px;
+        margin-top: -20px;
+    }
+    .leftone{
+        margin-top: -30px;
+    }
+    .righttwo{
+        margin-left: 40px;
+    }
+    .three{
+        margin-top: 80px;
+    }
+    .leftthree{
+        margin-left: 20px;
+    }
+    .lefthead h1{
+        margin-left: 30px;
+    }
+    .part3 button{
+        margin-left: -400px;
+    }
+    .part1{
+      flex-direction: column;
+      margin-left: 70px;
+    }
+    .part1 p{
+        margin-left: 170px;
+        width:400px;
+        margin-top: 40px;
+    }
+    .lg{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .right h1{
+       font-size: 45px;
+    }
+    .right{
+         width:400px;
+         margin-top: 30px;
+    }
+    .email{
+        padding-right: 216px;
+        margin-left: -20px;
+    }
+    .uptalk{
+        margin-left: -130px;
+    }
+    .part1 h1{
+        margin-left: -20px;
+        font-size: 40px;
+        width:400px;
+    }
+    .head2 h1{
+        margin-left: 40px;
+        font-size: 40px;
+        width:400px;
+    }
+    .ppl img{
+        width:400px;
+        height: 400px;
+        margin-left: -100px;
+    }
+    .one{
+        flex-direction: column-reverse;
+    }
+    .two{
+        flex-direction: column;
+    }
+    .middle3 .part2{
+        flex-direction: column;
+    }
+    .down{
+        width:400px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .headings5{
+        padding: 20px;
+    }
+   .up .icons{
+        margin-right: -20px;
+        margin-bottom: -30px;
+    }
+  .threeparts img{
+    margin-left: 60px;
+  }
+  .leftone,.righttwo{
+    margin-top: 40px;
+  }
+ .one .leftone{
+       margin-left: 15px;
+       margin-bottom: 20px;
+  }
+   .rightmatter .matter{
+    margin-left: 50px;
+  }
+ .middle3 .part2{
+     margin-left: 60px;
+  }
+  .intro{
+    margin-bottom: 30px;
+  }
+
+  
+}
